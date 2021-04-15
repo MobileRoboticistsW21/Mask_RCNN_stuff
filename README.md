@@ -4,6 +4,11 @@
 Follow the instruction in the [Mask_RCNN_And_Optical_Flow.ipynb](https://colab.research.google.com/drive/12HZIfiC6xag7QCkzP16-bCUAVsX8DyIH?usp=sharing) in this [folder](https://drive.google.com/drive/folders/1q23QGS28uWzC22kCXXYILY4DEgrw3AjD?usp=sharing).
 
 ## Run with your own data
-Download the Mask_RCNN_And_Optical_Flow.ipynb, change the path to your own data, and create folders to store intermidate data. Then follow the cells to produce a .JSON file containing Mask RCNN bounding boxes and optical flows. 
+
+```
+git clone https://github.com/MobileRoboticistsW21/Mask_RCNN_with_Optical_Flow.git
+```
+
+Within the [Mask_RCNN_And_Optical_Flow.ipynb](https://github.com/MobileRoboticistsW21/Mask_RCNN_with_Optical_Flow/blob/main/Mask_RCNN_And_Optical_Flow.ipynb), change the path to your own data, and create folders to store intermidate data. Then follow the cells to produce a .JSON file containing Mask RCNN bounding boxes and optical flows. 
 
 **This step should be run BEFORE performing GM-PHD filter, as it provides the input for the filter.**
