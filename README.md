@@ -14,8 +14,12 @@ Within the [Mask_RCNN_And_Optical_Flow.ipynb](https://github.com/MobileRoboticis
 Note that depending on google colab setting might need to change the amount of frames that run before getting saved into  pickle files to prevent RAM from crashing.
 
 Would need to change two this lines
+```
 if (i - 49) % 50 == 0 or i == (len(file_names) - 1):
+```
 
+```
 curr_image_idx = i * 50 + curr_pickle_idx 
+```
 
 **This step should be run BEFORE performing GM-PHD filter, as it provides the input for the filter.**
