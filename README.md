@@ -4,10 +4,8 @@
 Follow the instruction in the [Mask_RCNN_And_Optical_Flow.ipynb](https://colab.research.google.com/drive/12HZIfiC6xag7QCkzP16-bCUAVsX8DyIH?usp=sharing) in this [folder](https://drive.google.com/drive/folders/1q23QGS28uWzC22kCXXYILY4DEgrw3AjD?usp=sharing).
 
 ## Run with your own data
-Note that this directory changed MASKRCNN file structure was changed to run on google colab.
+Note that for this repo the MASKRCNN directories and files were modified to run on google colab.
 
-
-Side note: To use on linux one approach is would most likely need to go through the MASK RCNN instructions to install then just copy the Mask_RCNN_And_Optical_Flow.ipynb and set folder directories to own data. 
 ```
 git clone https://github.com/MobileRoboticistsW21/Mask_RCNN_with_Optical_Flow.git
 ```
